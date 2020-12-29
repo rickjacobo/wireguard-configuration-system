@@ -33,7 +33,7 @@ wg-quick up wg0
 
 4. Ensure your server is publicly accessible on port 51820
 
-## Peer(s)
+## Peers
 1. Download [wireguard client](https://www.wireguard.com/install/)
    - [Windows](https://download.wireguard.com/windows-client/wireguard-installer.exe)
    - [macOS](https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12)
