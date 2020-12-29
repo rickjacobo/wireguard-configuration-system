@@ -1,6 +1,19 @@
 # wireguard-configuration-system
 
-## Download and Run from Docker Hub
+## Description
+Wireguard Configuration System will help you create a wireguard vpn configuration for both the server and 'x' number of clients. Running the container will prompt you to enter the remote server IP address and the amount of roaming clients you want to create configurations for. After the container has finsished you will see the fillowing in your current working directory
+
+Current Working Directory:
+- README.txt
+- client
+  - <remote_ip>p1.conf
+  - <remote_ip>px.conf
+- server
+  - wg0.conf
+  
+Follow the instructions below for Server and Peer configurations.
+
+## Download and Running from Docker Hub
 ````
 mkdir configurations
 cd configurations
