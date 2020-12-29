@@ -16,7 +16,7 @@ docker run --rm -it -v ${PWD}:/configurations local/wireguard-configuration-syst
 ````
 
 ## Server
-### Server configuration for Ubuntu 20:04
+### Server configuration for Ubuntu 20.04
 Adapt configuration as needed for your server operating system
 
 1. Install Wireguard Server
