@@ -11,7 +11,7 @@ Current Working Directory:
 - server
   - wg0.conf
   
-Follow the instructions below for Server and Peer configurations.
+Follow the instructions below for Server and Peer setup.
 
 ## Download and Running from Docker Hub
 ````
