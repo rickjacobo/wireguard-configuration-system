@@ -44,7 +44,7 @@ apt-get install wireguard -y
 wg-quick up wg0
 ````
 
-4. Ensure your server is publicly accessible on port 51820
+4. Ensure your server is publicly accessible on port 51820/udp
 
 ## Peer(s)
 1. Download [wireguard client](https://www.wireguard.com/install/)
