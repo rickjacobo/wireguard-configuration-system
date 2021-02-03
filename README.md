@@ -1,7 +1,7 @@
 # wireguard-configuration-system
 
 ## Description
-Wireguard Configuration System will help you create a wireguard vpn configuration for both the server and 'x' number of clients. Running the container will prompt you to enter the remote server IP address and the specified number of roaming clients you would like to create configurations for. After the container has finished you will see the following in your current working directory
+Wireguard Configuration System will help you create a wireguard vpn configuration for both the server and 'x' number of clients. Running the container will prompt you to enter the remote server IP address and the specified number of roaming clients you would like to create the configurations for. After the container has finished you will see the following in your current working directory
 
 Current Working Directory:
 - README.txt
