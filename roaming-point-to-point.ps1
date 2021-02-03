@@ -8,7 +8,7 @@ $Peers = (Read-Host "How many peers will connect to the wireguard server (1-250)
 $Site = Get-Random -Minimum 1 -Maximum 250
 
 # Create Configuration Directory
-$ConfigurationDirectory = "/configurations"
+$ConfigurationDirectory = "/configurations/$Description"
     if (Test-Path $ConfigurationDirectory) {
         # Do Nothing
     }
