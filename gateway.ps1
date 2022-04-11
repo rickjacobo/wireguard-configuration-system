@@ -84,13 +84,14 @@ $WGPeerConf = "$Description" + "-" + "p" + "$Peer.conf"
 $PeerConfiguration = @"
 [INTERFACE]
 Address = 10.10.$Site.$Peer
+DNS = 8.8.8.8
 PrivateKey = $WGPeerPrivate
 ListenPort = $Port
 
 [PEER]
 PublicKey = $WGServerPublic
 Endpoint = $Endpoint
-AllowedIPs = 10.10.$Site.254/32
+AllowedIPs = 0.0.0.0/0
 
 PersistentKeepalive = 0
 "@
