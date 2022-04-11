@@ -6,6 +6,5 @@ RUN mkdir /wireguard
 RUN mkdir /wireguard/configurations
 WORKDIR /wireguard
 COPY roaming-point-to-point.ps1 /wireguard
-COPY gateway.ps1 /wireguard
 COPY start.ps1 /wireguard
 CMD pwsh start.ps1
